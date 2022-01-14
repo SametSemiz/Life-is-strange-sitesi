@@ -1,0 +1,291 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    overflow-x: hidden !important;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*-------------------------------------------------------------*/
+
+
+* {
+   padding: 0;
+   margin: 0;
+}
+ 
+body {
+   background: #f4f1e5;
+   color: #544738;
+   font-family: helvetica, sans-serif;
+}
+
+@font-face {
+ font-family: 'KulminoituvaRegular';
+ src: url('kulminoituva-webfont.eot');
+ src: local('‚ò∫'), url('kulminoituva-webfont.woff') format('woff'), url('kulminoituva-webfont.ttf') format('truetype'), url('kulminoituva-webfont.svg#webfontHNAi9IoX') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+
+
+.menu {
+    width: 1052px;
+    height: 85px;
+    position: fixed;
+    margin: 25px 100px 0 141px;
+    z-index: 99999;
+    opacity: 1;
+}
+
+#girisresim {
+    width: 50px;
+    height: 40px;
+    margin: -8px 0 0 30px;
+    opacity: 0.9
+}
+
+#bg {
+    width: 1050px;
+    height: 85px;
+    margin: 15px 0 0 126px;
+    z-index: 1;
+    position: fixed;
+    opacity: 0.8;
+}
+
+
+.menu ul li {
+    float: left;
+    list-style: none;
+    margin-right: 10px;
+    padding: 20px 0 0 20px;
+}
+ 
+.menu li a {
+    display: block;
+    width: 158px;
+    height: 30px;
+    color: #544738;
+    text-decoration: none;
+    float: left;
+    font-family: Kulminoituva;
+    font-size: 28px;
+    color: #fff;
+}
+
+#anasayfa {
+    width: 170px;
+    margin: -28px 0 0 0;
+}
+/*BURASI DEĞİŞECEK*/
+#galeri {
+    width: 90px;
+}
+
+#karakterler {
+    width: 170px;
+}
+
+#market {
+    width: 120px;
+    padding: 0 0 0 15px;
+}
+
+#satinal {
+    width: 120px;
+}
+
+#hakkimizda {
+    width: 160px;
+    color: saddlebrown;
+    font: bold 28px Kulminoituva;
+}
+ 
+.menu li a:hover {
+    color: #6E3700;
+ -webkit-transform: rotate(-10deg) scale(1.2);
+ -moz-transform: rotate(-10deg) scale(1.2);
+ -o-transform: rotate(-10deg) scale(1.2);
+}
+
+
+.left:hover {
+ -webkit-transform: rotate(-10deg) scale(1.2);
+ -moz-transform: rotate(-10deg) scale(1.2);
+ -o-transform: rotate(-10deg) scale(1.2);
+}
+ 
+.right:hover {
+ -webkit-transform: rotate(10deg) scale(1.2);
+ -moz-transform: rotate(10deg) scale(1.2);
+ -o-transform: rotate(10deg) scale(1.2);
+}
+
+.left:hover {
+ 
+ /*Transition*/ 
+ -webkit-transition:All .5s ease;
+ -moz-transition:All .5s ease;
+ -o-transition:All .5s ease;
+ 
+ /*Transform*/ 
+ -webkit-transform: rotate(-10deg) scale(1.2);
+ -moz-transform: rotate(-10deg) scale(1.2);
+ -o-transform: rotate(-10deg) scale(1.2);
+}
+ 
+.right:hover {
+ 
+ /*Transition*/ 
+ -webkit-transition:All .5s ease;
+ -moz-transition:All .5s ease;
+ -o-transition:All .5s ease;
+ 
+ /*Transform*/ 
+ -webkit-transform: rotate(10deg) scale(1.2);
+ -moz-transform: rotate(10deg) scale(1.2);
+ -o-transform: rotate(10deg) scale(1.2);
+}
+/*BURASI DEĞİŞECEK*/
+#hakkimizda:hover {
+    font: bold 28px Kulminoituva;
+}
+
+/* MENÜ BİTİŞ */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.genel {
+    width: 1350px;
+    height: 2200px;
+    background: #000;
+    margin: 0 auto;
+}
+
+.content {
+    width: 1000px;
+    height: 1800px;
+    background: #000;
+    position: absolute;
+    margin: 100px 0 0 165px;
+}
+
+.contentlogo {
+    width: 600px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.contentyazi {
+    width: 700px;
+    height: 400px;
+    float: left;
+    margin: 50px 0 0 0;
+}
+
+.contentgorsel {
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin: 50px 0 0 0;
+}
+
+#contentyazi1 {
+    font: 20px tahoma;
+    color: #fff;
+}
+
+.listebaslik {
+    width: 1000px;
+    height: 90px;
+    float: left;
+    margin: 50px 0 0 0;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+#listebaslik {
+    font: bold 50px tahoma;
+    color: #f00;
+    border-bottom: 5px double #f00;
+}
+
+.liste {
+    width: 1000px;
+    height: 500px;
+    float: left;
+}
+
+.listesol {
+    width: 303px;
+    height: 590px;
+    float: left;
+    padding: 10px 0 0 30px;
+    font: 20px tahoma;
+    color: #fff;
+    text-align: center;
+}
+
+.listeorta {
+    width: 303px;
+    height: 590px;
+    float: left;
+    padding: 10px 0 0 30px;
+    font: 20px tahoma;
+    color: #fff;
+    text-align: center;
+}
+
+.listesag {
+    width: 304px;
+    height: 590px;
+    float: left;
+    padding: 10px 0 0 30px;
+    font: 20px tahoma;
+    color: #fff;
+    text-align: center;
+}
+
+.form {
+    width: 600px;
+    height: 700px;
+    float: left;
+    margin: 100px 0 0 220px;
+}

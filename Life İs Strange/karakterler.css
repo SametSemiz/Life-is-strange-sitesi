@@ -1,0 +1,498 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    overflow-x: hidden !important;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*-------------------------------------------------------------*/
+
+
+* {
+   padding: 0;
+   margin: 0;
+}
+ 
+body {
+   background: url(karakterler/karakterlerwp.png);
+   color: #544738;
+   font-family: helvetica, sans-serif;
+}
+
+@font-face {
+ font-family: 'KulminoituvaRegular';
+ src: url('kulminoituva-webfont.eot');
+ src: local('‚ò∫'), url('kulminoituva-webfont.woff') format('woff'), url('kulminoituva-webfont.ttf') format('truetype'), url('kulminoituva-webfont.svg#webfontHNAi9IoX') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+
+
+.genel {
+    width: 1350px;
+    height: auto;
+    margin: 0 auto 0 auto;
+}
+
+.menu {
+    width: 1052px;
+    height: 85px;
+    position: fixed;
+    margin: -225px 100px 0 141px;
+    z-index: 99999;
+    opacity: 1;
+}
+
+#girisresim {
+    width: 50px;
+    height: 40px;
+    margin: -8px 0 0 30px;
+    opacity: 0.9
+}
+
+#bg {
+    width: 1090px;
+    height: 85px;
+    margin: -235px 0 0 126px;
+    z-index: 1;
+    position: fixed;
+    opacity: 0.8;
+}
+
+
+ul li {
+    float: left;
+    list-style: none;
+    margin-right: 10px;
+    padding: 20px 0 0 20px;
+}
+ 
+li a {
+    display: block;
+    width: 158px;
+    height: 30px;
+    color: #544738;
+    text-decoration: none;
+    float: left;
+    font-family: Kulminoituva;
+    font-size: 28px;
+    color: #fff;
+}
+
+#anasayfa {
+    width: 170px;
+    margin: -28px 0 0 0;
+}
+/*BURASI DEĞİŞECEK*/
+#galeri {
+    width: 90px;
+}
+
+#karakterler {
+    width: 170px;
+    color: saddlebrown;
+    font: bold 28px Kulminoituva;
+}
+
+#market {
+    width: 120px;
+    padding: 0 0 0 15px;
+}
+
+#satinal {
+    width: 120px;
+}
+
+#hakkimizda {
+    width: 160px;
+}
+ 
+li a:hover {
+    color: #6E3700;
+ -webkit-transform: rotate(-10deg) scale(1.2);
+ -moz-transform: rotate(-10deg) scale(1.2);
+ -o-transform: rotate(-10deg) scale(1.2);
+}
+
+
+.left:hover {
+ -webkit-transform: rotate(-10deg) scale(1.2);
+ -moz-transform: rotate(-10deg) scale(1.2);
+ -o-transform: rotate(-10deg) scale(1.2);
+}
+ 
+.right:hover {
+ -webkit-transform: rotate(10deg) scale(1.2);
+ -moz-transform: rotate(10deg) scale(1.2);
+ -o-transform: rotate(10deg) scale(1.2);
+}
+
+.left:hover {
+ 
+ /*Transition*/ 
+ -webkit-transition:All .5s ease;
+ -moz-transition:All .5s ease;
+ -o-transition:All .5s ease;
+ 
+ /*Transform*/ 
+ -webkit-transform: rotate(-10deg) scale(1.2);
+ -moz-transform: rotate(-10deg) scale(1.2);
+ -o-transform: rotate(-10deg) scale(1.2);
+}
+ 
+.right:hover {
+ 
+ /*Transition*/ 
+ -webkit-transition:All .5s ease;
+ -moz-transition:All .5s ease;
+ -o-transition:All .5s ease;
+ 
+ /*Transform*/ 
+ -webkit-transform: rotate(10deg) scale(1.2);
+ -moz-transform: rotate(10deg) scale(1.2);
+ -o-transform: rotate(10deg) scale(1.2);
+}
+/*BURASI DEĞİŞECEK*/
+#karakterler:hover {
+    font: bold 28px Kulminoituva;
+}
+
+/* MENÜ BİTİŞ */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.genel {
+    width: 1350px;
+    height: 4000px;
+    margin: 0 auto;
+}
+
+.karakter {
+    width: 1100px;
+    height: 300px;
+    border: 5px solid #000;
+    margin: 80px 0 0 120px;
+    border-radius: 20px;
+}
+
+.baslik {
+    width: 700px;
+    height: 100px;
+    margin: -140px 0 0 335px;
+    position: absolute;
+    background: url(karakterler/karakterleryazi.png);
+    padding: 20px 0 0 0
+}
+
+.baslikyazi {
+    color: #fff;
+    font: 65px Kulminoituva;
+    margin: 0 0 0 160px;
+}
+
+/*-------------------------------------------*/
+
+#karakter1 {
+    margin: 250px 0 0 120px;
+}
+
+#max {
+    width: 200px;
+    height: 250px;
+    border: 5px solid #000;
+    border-radius: 100px;
+    margin: 20px 0 0 45px;
+}
+
+.karakter1sol {
+    width: 300px;
+    height: 300px;
+    background: ;
+    float: left;
+}
+
+.karakter1sag {
+    width: 670px;
+    height: 270px;
+    background: url(karakterler/kagit.png) no-repeat;
+    float: left;
+    padding: 30px 30px 0 100px;
+}
+
+/*-------------------------------------------*/
+
+#chloe {
+    width: 200px;
+    height: 250px;
+    border: 5px solid #000;
+    border-radius: 100px;
+    margin: 20px 0 0 45px;
+}
+
+.karakter2sol {
+    width: 300px;
+    height: 300px;
+    background: ;
+    float: left;
+}
+
+.karakter2sag {
+    width: 670px;
+    height: 270px;
+    background: url(karakterler/kagit.png) no-repeat;
+    float: left;
+    padding: 30px 30px 0 100px;
+}
+
+/*-------------------------------------------*/
+
+
+#rachel {
+    width: 200px;
+    height: 250px;
+    border: 5px solid #000;
+    border-radius: 100px;
+    margin: 20px 0 0 45px;
+}
+
+.karakter3sol {
+    width: 300px;
+    height: 300px;
+    background: ;
+    float: left;
+}
+
+.karakter3sag {
+    width: 670px;
+    height: 270px;
+    background: url(karakterler/kagit.png) no-repeat;
+    float: left;
+    padding: 30px 30px 0 100px;
+}
+
+/*-------------------------------------------*/
+
+
+#warren {
+    width: 200px;
+    height: 250px;
+    border: 5px solid #000;
+    border-radius: 100px;
+    margin: 20px 0 0 45px;
+}
+
+.karakter4sol {
+    width: 300px;
+    height: 300px;
+    background: ;
+    float: left;
+}
+
+.karakter4sag {
+    width: 670px;
+    height: 270px;
+    background: url(karakterler/kagit.png) no-repeat;
+    float: left;
+    padding: 30px 30px 0 100px;
+}
+
+/*-------------------------------------------*/
+
+
+#kate {
+    width: 200px;
+    height: 250px;
+    border: 5px solid #000;
+    border-radius: 100px;
+    margin: 20px 0 0 45px;
+}
+
+.karakter5sol {
+    width: 300px;
+    height: 300px;
+    background: ;
+    float: left;
+}
+
+.karakter5sag {
+    width: 670px;
+    height: 270px;
+    background: url(karakterler/kagit.png) no-repeat;
+    float: left;
+    padding: 30px 30px 0 100px;
+}
+
+/*-------------------------------------------*/
+
+
+
+#victoria {
+    width: 200px;
+    height: 250px;
+    border: 5px solid #000;
+    border-radius: 100px;
+    margin: 20px 0 0 45px;
+}
+
+.karakter6sol {
+    width: 300px;
+    height: 300px;
+    background: ;
+    float: left;
+}
+
+.karakter6sag {
+    width: 670px;
+    height: 270px;
+    background: url(karakterler/kagit.png) no-repeat;
+    float: left;
+    padding: 30px 30px 0 100px;
+}
+
+/*-------------------------------------------*/
+
+
+#nathan {
+    width: 200px;
+    height: 250px;
+    border: 5px solid #000;
+    border-radius: 100px;
+    margin: 20px 0 0 45px;
+}
+
+.karakter7sol {
+    width: 300px;
+    height: 300px;
+    background: ;
+    float: left;
+}
+
+.karakter7sag {
+    width: 670px;
+    height: 270px;
+    background: url(karakterler/kagit.png) no-repeat;
+    float: left;
+    padding: 30px 30px 0 100px;
+}
+
+/*-------------------------------------------*/
+
+
+#william {
+    width: 200px;
+    height: 250px;
+    border: 5px solid #000;
+    border-radius: 100px;
+    margin: 20px 0 0 45px;
+}
+
+.karakter8sol {
+    width: 300px;
+    height: 300px;
+    background: ;
+    float: left;
+}
+
+.karakter8sag {
+    width: 670px;
+    height: 270px;
+    background: url(karakterler/kagit.png) no-repeat;
+    float: left;
+    padding: 30px 30px 0 100px;
+}
+
+/*-------------------------------------------*/
+
+
+#david {
+    width: 200px;
+    height: 250px;
+    border: 5px solid #000;
+    border-radius: 100px;
+    margin: 20px 0 0 45px;
+}
+
+.karakter9sol {
+    width: 300px;
+    height: 300px;
+    background: ;
+    float: left;
+}
+
+.karakter9sag {
+    width: 670px;
+    height: 270px;
+    background: url(karakterler/kagit.png) no-repeat;
+    float: left;
+    padding: 30px 30px 0 100px;
+}
+
+/*-------------------------------------------*/
+
+
+#mark {
+    width: 200px;
+    height: 250px;
+    border: 5px solid #000;
+    border-radius: 100px;
+    margin: 20px 0 0 45px;
+}
+
+.karakter10sol {
+    width: 300px;
+    height: 300px;
+    background: ;
+    float: left;
+}
+
+.karakter10sag {
+    width: 670px;
+    height: 270px;
+    background: url(karakterler/kagit.png) no-repeat;
+    float: left;
+    padding: 30px 30px 0 100px;
+}
+
+/*-------------------------------------------*/
+
+#yazi1 {
+    font: 18px tahoma;
+}
+

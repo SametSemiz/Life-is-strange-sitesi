@@ -1,0 +1,87 @@
+body {
+    background: gray;
+}
+
+.genel {
+    width: 400px;
+    height: 400px;
+    background: #eee;
+    border: 6px solid #f00;
+    border-radius: 20px;
+    margin: 100px auto 0 auto;
+    padding: 20px 0 0 0;
+}
+
+.baslik {
+    color: #f00;
+    text-align: center;
+    font: bold 40px tahoma;
+    text-decoration: underline;
+    margin: 0 0 0 110px;
+}
+
+.orta {
+    width: 300px;
+    height: auto;
+    background: ;
+    margin: 20px 0 0 50px;
+}
+
+span {
+    width: 300px;
+    height: auto;
+    font: bold 25px tahoma;
+    color: #f00;
+}
+
+.yazi1 {
+    margin: 0 96px;
+}
+
+.yazi2 {
+    margin: 0 110px;
+}
+
+.eposta {
+    width: 290px;
+    height: 60px;
+    border: 4px solid #f00;
+    border-radius: 20px;
+    position: static;
+    margin: 10px 0;
+    font: bold 18px tahoma;
+    padding: 0 0  0 10px;
+}
+
+.sifre {
+    width: 290px;
+    height: 60px;
+    border: 4px solid #f00;
+    border-radius: 20px;
+    position: relative;
+    margin: 10px 0 0 0;
+    font: bold 18px tahoma;
+    padding: 0 0  0 10px;
+}
+
+.buton {
+    width: 245px;
+    height: 55px;
+    background: #f00;
+    color: #fff;
+    font: bold 20px tahoma;
+    position: relative;
+    margin: 35px 0 0 30px;
+    border-radius: 20px;
+}
+
+.buton:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#sonyazi {
+    font: 14px tahoma;
+    margin: -10px 0 0 30px;
+    position: absolute;
+}

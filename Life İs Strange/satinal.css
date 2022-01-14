@@ -1,0 +1,284 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    overflow-x: hidden !important;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*-------------------------------------------------------------*/
+
+
+* {
+   padding: 0;
+   margin: 0;
+}
+ 
+body {
+   background: #f4f1e5;
+   color: #544738;
+   font-family: helvetica, sans-serif;
+}
+
+@font-face {
+ font-family: 'KulminoituvaRegular';
+ src: url('kulminoituva-webfont.eot');
+ src: local('‚ò∫'), url('kulminoituva-webfont.woff') format('woff'), url('kulminoituva-webfont.ttf') format('truetype'), url('kulminoituva-webfont.svg#webfontHNAi9IoX') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+
+
+
+.menu {
+    width: 1052px;
+    height: 85px;
+    position: fixed;
+    margin: 25px 100px 0 141px;
+    z-index: 99999;
+    opacity: 1;
+}
+
+#girisresim {
+    width: 50px;
+    height: 40px;
+    margin: -8px 0 0 30px;
+    opacity: 0.9
+}
+
+#bg {
+    width: 1050px;
+    height: 85px;
+    margin: 15px 0 0 126px;
+    z-index: 1;
+    position: fixed;
+    opacity: 0.8;
+}
+
+ul li {
+    float: left;
+    list-style: none;
+    margin-right: 10px;
+    padding: 20px 0 0 20px;
+}
+ 
+li a {
+    display: block;
+    width: 158px;
+    height: 30px;
+    color: #544738;
+    text-decoration: none;
+    float: left;
+    font-family: Kulminoituva;
+    font-size: 28px;
+    color: #fff;
+}
+
+#anasayfa {
+    width: 170px;
+    margin: -28px 0 0 0;
+}
+/*BURASI DEĞİŞECEK*/
+#galeri {
+    width: 90px;
+}
+
+#karakterler {
+    width: 170px;
+}
+
+#market {
+    width: 120px;
+    padding: 0 0 0 15px;
+}
+
+#satinal {
+    width: 120px;
+    color: saddlebrown;
+    font: bold 28px Kulminoituva;
+}
+
+#hakkimizda {
+    width: 160px;
+}
+ 
+li a:hover {
+    color: #6E3700;
+ -webkit-transform: rotate(-10deg) scale(1.2);
+ -moz-transform: rotate(-10deg) scale(1.2);
+ -o-transform: rotate(-10deg) scale(1.2);
+}
+
+
+.left:hover {
+ -webkit-transform: rotate(-10deg) scale(1.2);
+ -moz-transform: rotate(-10deg) scale(1.2);
+ -o-transform: rotate(-10deg) scale(1.2);
+}
+ 
+.right:hover {
+ -webkit-transform: rotate(10deg) scale(1.2);
+ -moz-transform: rotate(10deg) scale(1.2);
+ -o-transform: rotate(10deg) scale(1.2);
+}
+
+.left:hover {
+ 
+ /*Transition*/ 
+ -webkit-transition:All .5s ease;
+ -moz-transition:All .5s ease;
+ -o-transition:All .5s ease;
+ 
+ /*Transform*/ 
+ -webkit-transform: rotate(-10deg) scale(1.2);
+ -moz-transform: rotate(-10deg) scale(1.2);
+ -o-transform: rotate(-10deg) scale(1.2);
+}
+ 
+.right:hover {
+ 
+ /*Transition*/ 
+ -webkit-transition:All .5s ease;
+ -moz-transition:All .5s ease;
+ -o-transition:All .5s ease;
+ 
+ /*Transform*/ 
+ -webkit-transform: rotate(10deg) scale(1.2);
+ -moz-transform: rotate(10deg) scale(1.2);
+ -o-transform: rotate(10deg) scale(1.2);
+}
+/*BURASI DEĞİŞECEK*/
+#satinal:hover {
+    font: bold 28px Kulminoituva;
+}
+
+/* MENÜ BİTİŞ */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.genel {
+    width: 1350px;
+    height: 780px;
+    margin: 0 auto;
+    background: #363636;
+}
+
+.satinal {
+    width: 1170px;
+    height: 670px;
+    padding: 110px 0 0 220px;
+}
+
+.yazi {
+    width: 900px;
+    height: 130px;
+    text-align: center;
+    font: bold 50px tahoma;
+    color: #f00;
+    text-shadow: 2px 2px 5px red;
+}
+
+.platformlar {
+    width: 900px;
+    height: 500px;
+    margin: 0 0 0 -15px;
+}
+
+#box1 {
+    margin: 10px 0 0 50px;
+}
+
+#box2 {
+    margin: 10px 0 0 45px;
+}
+
+#box3 {
+    margin: 15px 0 0 30px;
+}
+
+#box4 {
+    margin: 5px 0 0 5px;
+}
+
+#box5 {
+    margin: 13px 0 0 30px;
+}
+
+#box6 {
+    margin: 15px 0 0 20px;
+}
+
+
+#box {
+    width: 200px;
+    height: 130px;
+    background: #fff;
+    border: 5px solid #585858;
+    float: left;
+    box-shadow: 8px 8px 10px gray, -3px -3px 8px gray;
+    border-radius: 20px;
+}
+
+#box:hover {
+    box-shadow: 10px 10px 10px #000, -6px -6px 15px #000;
+}
+
+.box1 {
+    margin: 30px 0 0 70px;
+}
+
+.box2 {
+    margin: 30px 0 0 70px;
+}
+
+.box3 {
+    margin: 30px 0 0 70px;
+}
+
+.box4 {
+    margin: 70px 0 0 70px;
+}
+
+.box5 {
+    margin: 70px 0 0 70px;
+}
+
+.box6 {
+    margin: 70px 0 0 70px;
+}
